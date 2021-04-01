@@ -1,0 +1,153 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+   font-size: 1.1em;
+   line-height: 1.5;
+   text-align: center;
+   background-color: #333;
+   color: #333;
+}
+
+.header {
+   height: 450px;
+   position: relative;
+}
+
+.header-bg {
+   width: 100%;
+   height: 450px;
+   background: url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   position: absolute;
+   opacity: 0.4;
+   z-index: -1;
+}
+
+.head-block {
+   width: 70%;
+   color: rgb(255, 255, 255);
+   margin: 0 auto;
+}
+
+h1 {
+   display: block;
+   font-size: 2em;
+   padding-top: 100px;
+}
+
+.head-block > p {
+   padding: 17px 0;
+}
+
+.button {
+   border: 1px solid rgb(255, 255, 255);
+   border-radius: 5px;
+   box-sizing: border-box;
+   padding: 17px 35px;
+   margin: 10px 0px;
+   display: inline-block;
+   background-color: #333;
+   color: rgb(253, 253, 253);
+   text-decoration: none;
+}
+
+.info-block {
+   height: 230px;
+   background-color: rgb(236, 236, 236);
+}
+
+.info-title {
+   padding: 45px 0;
+}
+
+.info-content {
+   display: inline-block;
+   width: 400px;
+   margin: 0 20px;
+}
+
+.news-block {
+   height: 600px;
+}
+.news-block-card {
+   /* width: 85%; */
+   margin: 0 auto;
+}
+.card {
+   width: 250px;
+   height: 500px;
+   display: inline-block;
+   margin: 50px 7px;
+   background-color: rgb(255, 255, 255);
+}
+
+img {
+   width: 100%;
+   height: auto;
+}
+.card-content {
+   margin: 0 10%;
+}
+.card-title {
+   margin: 40px auto;
+}
+
+.slider-block {
+   height: 250px;
+   background-color: rgb(236, 236, 236);
+}
+
+.slider-p {
+   display: block;
+   width: 800px;
+   margin: 20px auto;
+}
+.about-company {
+   height: 335px;
+   font-size: 0;
+}
+
+.about-block {
+   width: 50%;
+   display: inline-block;
+   height: 335px;
+   box-sizing: border-box;
+   /* border: 1px solid black; */
+}
+
+.about-block-info {
+   width: 80%;
+   height: 80%;
+   margin: 30px auto;
+   /* border: 1px solid black; */
+}
+
+.h2 {
+   font-size: 25px;
+   color: white;
+}
+
+#blue {
+   background-color: rgb(36, 158, 240);
+}
+footer {
+   height: 95px;
+   background-color: black;
+}
+
+.footer-box {
+   width: 49%;
+   display: inline-block;
+   margin: 0px auto;
+   padding: 35px 0;
+   color: white;
+}
+.bl {
+   color: rgb(33, 144, 248);
+}
